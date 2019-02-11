@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Posts" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinXFlutter.Posts">
+    <StackLayout>
+       <ListView x:Name="PostsView" ItemTapped="Handle_ItemTapped">
+    <ListView.ItemTemplate>
+      <DataTemplate>
+        <ViewCell>
+           <StackLayout Orientation="Horizontal" Padding="5">
+              <Label Text="{Binding Id}" WidthRequest="30" VerticalTextAlignment="Center" /> 
+              <Label Text="{Binding Body}" HorizontalTextAlignment="Start" />  
+           </StackLayout>             
+        </ViewCell>
+      </DataTemplate>
+    </ListView.ItemTemplate>
+  </ListView>
+    </StackLayout>
+</ContentPage>

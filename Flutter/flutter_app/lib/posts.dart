@@ -50,8 +50,7 @@ class Posts extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         body: Center(
           child: FutureBuilder<List<Post>>(
             future: posts,
@@ -68,7 +67,7 @@ class Posts extends StatelessWidget {
             },
           ),
         ),
-      ),
+      
     );
   }
 }
@@ -79,7 +78,11 @@ class PostList extends StatelessWidget {
   PostList({this.posts});
   @override
   Widget build(BuildContext context) {
-    return ListView.separated(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Posts")
+      ),
+      body: ListView.separated(
       itemCount: posts.length,
       itemBuilder: (BuildContext ctxt, int index) {
         return new GestureDetector(
@@ -110,6 +113,7 @@ class PostList extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
       separatorBuilder: (BuildContext context, int index) =>
           Divider(color: Colors.black),
+    )
     );
   }
 }

@@ -31,23 +31,24 @@ class PostDetail extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-            child: FutureBuilder<Post>(
-                future: post,
-                builder: (context, snapshot) {
-                  if (snapshot.hasData) {
-                    return snapshot.hasData
-                        ? PostDetailView(post: snapshot.data)
-                        : Center(child: CircularProgressIndicator());
-                  } else if (snapshot.hasError) {
-                    return Text("${snapshot.error}");
-                  }
-                  // By default, show a loading spinner
-                  return CircularProgressIndicator();
-                })),
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Details"),
       ),
+      body: Center(
+          child: FutureBuilder<Post>(
+              future: post,
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  return snapshot.hasData
+                      ? PostDetailView(post: snapshot.data)
+                      : Center(child: CircularProgressIndicator());
+                } else if (snapshot.hasError) {
+                  return Text("${snapshot.error}");
+                }
+                // By default, show a loading spinner
+                return CircularProgressIndicator();
+              })),
     );
   }
 }
@@ -60,7 +61,8 @@ class PostDetailView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: RichText(text: TextSpan(text: post.title, style: TextStyle(color: Colors.black)))
-    );
+        child: RichText(
+            text: TextSpan(
+                text: post.title, style: TextStyle(color: Colors.black))));
   }
 }

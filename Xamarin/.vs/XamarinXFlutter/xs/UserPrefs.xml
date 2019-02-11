@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{F7DC3AC7-8ABD-4BFE-B4FF-00FF51250230}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinXFlutter/PostDetail.xaml">
+    <Files>
+      <File FileName="XamarinXFlutter/MainPage.xaml" Line="10" Column="205" />
+      <File FileName="XamarinXFlutter/MainPage.xaml.cs" Line="21" Column="47" />
+      <File FileName="XamarinXFlutter/Posts.xaml" Line="2" Column="26" />
+      <File FileName="XamarinXFlutter/Posts.xaml.cs" Line="22" Column="43" />
+      <File FileName="XamarinXFlutter/App.xaml.cs" Line="14" Column="57" />
+      <File FileName="XamarinXFlutter/PostDetail.xaml" Line="7" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XamarinXFlutter.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AFFD1978-0A7E-426E-9347-69B1EB0C0DC8" />
+  <MonoDevelop.Ide.ItemProperties.XamarinXFlutter.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

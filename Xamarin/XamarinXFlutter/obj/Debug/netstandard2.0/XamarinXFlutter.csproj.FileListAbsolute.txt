@@ -1,0 +1,14 @@
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/bin/Debug/netstandard2.0/XamarinXFlutter.deps.json
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/bin/Debug/netstandard2.0/XamarinXFlutter.dll
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/bin/Debug/netstandard2.0/XamarinXFlutter.pdb
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/PostDetail.xaml.g.cs
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/Posts.xaml.g.cs
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamarinXFlutter.csproj.CoreCompileInputs.cache
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamarinXFlutter.AssemblyInfoInputs.cache
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamarinXFlutter.AssemblyInfo.cs
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamarinXFlutter.dll
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamarinXFlutter.pdb
+/Users/matsbraa/ReposOld/XamVsFlutt/XamarinXFlutter/XamarinXFlutter/obj/Debug/netstandard2.0/XamarinXFlutter.csprojAssemblyReference.cache
